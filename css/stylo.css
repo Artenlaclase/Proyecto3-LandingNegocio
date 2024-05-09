@@ -1,15 +1,33 @@
-
-    /* Estilos para la imagen del logo */
-    .navbar-brand .logo {
-        max-width: 200px; /* Establece el ancho máximo de la imagen */
-        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-        display: block; /* Asegura que la imagen sea un bloque para aplicar anchos y alturas */
-    }
-
-
-
-.logo {
-    transform: translateY(-2px);
+/* Estilos para la imagen del logo */
+.navbar-brand .logo {
+    max-width: 200px;
+    /* Establece el ancho máximo de la imagen */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block;
+    /* Asegura que la imagen sea un bloque para aplicar anchos y alturas */
 }
 
 
+/* Estilos para el contenedor del botón se posiciona en la parte inferior derecha 
+para que el  boton del menu quede a la alcance del dedo gordo de la mano que sostiebe el mobil  */
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    /* Espacio desde la parte inferior de la ventana */
+    right: 20px;
+    /* Espacio desde el borde derecho de la ventana */
+    z-index: 999;
+    /* Asegura que esté en la capa superior */
+}
+
+ /* Estilos para el botón del menú */
+ .navbar-toggler {
+    background-color: white; /* Establece el color de fondo del botón */
+    color: black; /* Cambia el color del texto del botón */
+    opacity: 1; /* Asegura que no haya transparencia */
+    border: none; /* Elimina el borde del botón si lo deseas */
+    padding: 10px 15px; /* Ajusta el relleno del botón según sea necesario */
+    border-radius: 5px; /* Opcional: Agrega esquinas redondeadas al botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Agrega sombra al botón */
+}
