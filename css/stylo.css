@@ -31,3 +31,13 @@ para que el  boton del menu quede a la alcance del dedo gordo de la mano que sos
     border-radius: 5px; /* Opcional: Agrega esquinas redondeadas al botón */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Agrega sombra al botón */
 }
+
+.site-header {
+    height: 200px; /* Altura del encabezado */
+    background-image: url('/img/fondo.png'); /* URL de la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá todo el espacio del encabezado */
+    background-position: center; /* La imagen se posiciona en el centro del encabezado */
+    color: #ffffff; /* Color del texto en el encabezado (blanco en este caso) */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 50px; /* Espaciado interno del encabezado */
+}
