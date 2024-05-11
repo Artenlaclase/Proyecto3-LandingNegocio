@@ -8,7 +8,6 @@
     /* Asegura que la imagen sea un bloque para aplicar anchos y alturas */
 }
 
-
 /* Estilos para el contenedor del botón se posiciona en la parte inferior derecha 
 para que el  boton del menu quede a la alcance del dedo gordo de la mano que sostiebe el mobil  */
 .button-container {
@@ -21,23 +20,40 @@ para que el  boton del menu quede a la alcance del dedo gordo de la mano que sos
     /* Asegura que esté en la capa superior */
 }
 
- /* Estilos para el botón del menú */
- .navbar-toggler {
-    background-color: white; /* Establece el color de fondo del botón */
-    color: black; /* Cambia el color del texto del botón */
-    opacity: 1; /* Asegura que no haya transparencia */
-    border: none; /* Elimina el borde del botón si lo deseas */
-    padding: 10px 15px; /* Ajusta el relleno del botón según sea necesario */
-    border-radius: 5px; /* Opcional: Agrega esquinas redondeadas al botón */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Agrega sombra al botón */
+/* Estilos para el botón del menú */
+.navbar-toggler {
+    background-color: white;
+    /* Establece el color de fondo del botón */
+    color: black;
+    /* Cambia el color del texto del botón */
+    opacity: 1;
+    /* Asegura que no haya transparencia */
+    border: none;
+    /* Elimina el borde del botón si lo deseas */
+    padding: 10px 15px;
+    /* Ajusta el relleno del botón según sea necesario */
+    border-radius: 5px;
+    /* Opcional: Agrega esquinas redondeadas al botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Opcional: Agrega sombra al botón */
 }
 
-.site-header {
-    height: 200px; /* Altura del encabezado */
-    background-image: url('/img/fondo.png'); /* URL de la imagen de fondo */
-    background-size: cover; /* La imagen cubrirá todo el espacio del encabezado */
-    background-position: center; /* La imagen se posiciona en el centro del encabezado */
-    color: #ffffff; /* Color del texto en el encabezado (blanco en este caso) */
-    text-align: center; /* Alineación del texto al centro */
-    padding: 50px; /* Espaciado interno del encabezado */
+/* intento de fijar navbar arriba 
+.navbar {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+    } */
+
+
+p {
+    text-align: justify;
+    /* Texto justificado  */
+    margin: 3em auto 2em;
+}
+
+#promocion {
+color: #000000;
+    text-shadow: 1px 1px #000000;
 }
