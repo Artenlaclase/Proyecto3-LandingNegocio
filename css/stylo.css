@@ -50,10 +50,23 @@ para que el  boton del menu quede a la alcance del dedo gordo de la mano que sos
 p {
     text-align: justify;
     /* Texto justificado  */
-    margin: 3em auto 2em;
+    margin: 1em auto 2em;
 }
-
+h1 {
+    text-align: center;
+}
 #promocion {
 color: #000000;
     text-shadow: 1px 1px #000000;
+
+}
+
+footer {
+    background-color: #cacbcd;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 10px; /* Espacio entre los íconos */
 }

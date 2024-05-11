@@ -12,42 +12,40 @@
 </head>
 
 <body>
+    <Header>
+        <div class="navbar navbar-expand-lg mt-4">
+            <div class="container">
 
-    <div class="navbar navbar-expand-lg mt-4">
-        <div class="container">
+                <a class="navbar-brand fs-3" href="#">
+                    <img class="logo" src="./img/logo-artenlaclase.png" alt="bootstrap">
+                </a>
+                <div class="button-container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdowm">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
 
-            <a class="navbar-brand fs-3" href="#">
-                <img class="logo" src="./img/logo-artenlaclase.png" alt="bootstrap">
-            </a>
-            <div class="button-container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdowm">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdowm">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#Main " class="nav-link">Plan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Producto" class="nav-link">Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Contacto" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+
             </div>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdowm">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Main</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-
         </div>
-    </div>
+    </Header>
 
-    <Header class="main pt-7">
+    <Main class="main pt-7" id="Main">
         <div class="container-xl">
             <div class="row">
                 <div class="col-md-6">
@@ -91,9 +89,11 @@
 
             </div>
         </div>
-    </Header>
+        </Header>
+    </Main>
 
-    <section class="about bg-light text-secondary p-5">
+
+    <section class="bg-light pt-7 text-secondary p-5 " id="Producto">
         <div class="container">
             <p class="display-5 text-center">
                 Bienvenido al recurso definitivo para llevar el mundo del cine a tu escuela. Nuestro plan de 4 clases te
@@ -105,7 +105,7 @@
         </div>
     </section>
 
-    <div id="productos" class="py-5">
+    <div id="Contenido" class="pt-7 py-5">
         <h1 class="display-5 text-center fw-bold">Lo que aprenderás en este plan de clases.</h1>
 
         <div class="container">
@@ -138,7 +138,23 @@
         </div>
     </div>
 
-    <footer class="container p-3">
+    <footer  id="Contacto">
+        <table class="container">
+            <tr>
+                <th><a href="https://www.facebook.com/artenlaclase/" target="_blank" rel="noopener noreferrer"> <img
+                            src="./img/facebook .png" width="50px" height="50px" alt="facebook"></a>
+                </th>
+                <th><a href="https://www.instagram.com/artenlaclase/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/instagram.png" width="50px" height="50px" alt="Instagram"></a></th>
+                <th><a href="https://www.youtube.com/c/Artenlaclase" target="_blank" rel="noopener noreferrer"> <img
+                            src="./img/youtube.png" width="50px" height="50px" alt="Youtube"></a>
+                </th>
+                <th><a href="https://cl.linkedin.com/in/raúl-rosales-rebolledo-00302a137" target="_blank"
+                        rel="noopener noreferrer"> <img src="./img/linkedin.png" width="40px" height="40px"
+                            alt="Linkedin"></a>
+                </th>
+            </tr>
+        </table>
 
         <p class="text-center small text-muted">Copyright &copy; Artenlaclase 2024</p>
 
