@@ -63,12 +63,13 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
  3. Realiza los cambios necesarios y haz commit de los mismos (git commit -m 'Añadir nueva característica').
  4. Haz push a la rama (git push origin feature-nueva-caracteristica).
  5. Abre un Pull Request para que tus cambios sean revisados y fusionados.
+ 
 
-## Autor
+Autor 
 
 Raul Rosales - Estudiante del bootcamp UDD corte 13.
 
-## Licencia
+## Licencia 
 Este proyecto no tiene una licencia específica.
 
 ¡Gracias por visitar el repositorio de la landing page de negocio! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactar al autor.
