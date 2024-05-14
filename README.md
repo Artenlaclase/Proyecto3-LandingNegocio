@@ -73,8 +73,3 @@ Raul Rosales - Estudiante del bootcamp UDD corte 13.
 Este proyecto no tiene una licencia específica.
 
 ¡Gracias por visitar el repositorio de la landing page de negocio! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactar al autor.
-
-
-Este archivo `README.md` proporciona una visión clara del proyecto, incluyendo sus objetivos, estructura, tecnologías utilizadas, requisitos, instrucciones de instalación, contribución, autor y licencia. Puedes personalizarlo según tus necesidades específicas.
-
-
