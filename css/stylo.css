@@ -1,3 +1,14 @@
+body{
+    margin: 0;
+    padding-top: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .container{
+    background-color: #8e94a2;
+
+
+} */
+
 /* Estilos para la imagen del logo */
 .navbar-brand .logo {
     max-width: 200px;
@@ -7,6 +18,7 @@
     display: block;
     /* Asegura que la imagen sea un bloque para aplicar anchos y alturas */
 }
+
 
 /* Estilos para el contenedor del botón se posiciona en la parte inferior derecha 
 para que el  boton del menu quede a la alcance del dedo gordo de la mano que sostiebe el mobil  */
@@ -38,25 +50,44 @@ para que el  boton del menu quede a la alcance del dedo gordo de la mano que sos
     /* Opcional: Agrega sombra al botón */
 }
 
-/* intento de fijar navbar arriba 
+/* intento de fijar navbar arriba  */
+
 .navbar {
     position: fixed;
-    background-color: #ffffff;
+    background-color: #cacbcd;
     top: 0;
     width: 100%;
-    } */
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
 
+.main {
+    margin-top: 60px;
+    /* Ajusta este valor según la altura de tu navbar */
+    padding: 20px;
+
+}
+
+section {
+    padding-top: 60px;
+    /* Ajusta este valor según la altura de tu navbar */
+    margin-top: -60px;
+    /* Ajusta este valor según la altura de tu navbar */
+}
 
 p {
     text-align: justify;
     /* Texto justificado  */
     margin: 1em auto 2em;
 }
+
 h1 {
     text-align: center;
 }
+
 #promocion {
-color: #000000;
+    color: #000000;
     text-shadow: 1px 1px #000000;
 
 }
@@ -68,5 +99,6 @@ footer {
 }
 
 footer img {
-    margin: 0 10px; /* Espacio entre los íconos */
+    margin: 0 10px;
+    /* Espacio entre los íconos */
 }
