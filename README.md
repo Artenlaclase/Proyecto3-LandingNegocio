@@ -30,7 +30,7 @@ project-root/
 
 ## Tecnologías Utilizadas
 
-- **HTML5**: Para la estructura de la página web.https://www.youtube.com/watch?v=CQThQ0RUYBM
+- **HTML5**: Para la estructura de la página web.
 - **CSS**: Para el diseño y estilo de la página web. 
   - Framework CSS Bootstrap.
 
@@ -48,9 +48,11 @@ Para trabajar en este proyecto, necesitarás tener instalado lo siguiente:
    git clone https://github.com/tu-usuario/tu-repositorio.git
 
 2. Navega al directorio del proyecto.
-   cd Proyecto3-LandingNegocio
 
-3. Abre el archivo index.html en tu navegador para ver la landing page.
+cd Proyecto3-LandingNegocio
+
+
+4. Abre el archivo index.html en tu navegador para ver la landing page.
 
 ## Contribución
 
